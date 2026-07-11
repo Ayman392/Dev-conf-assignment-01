@@ -87,7 +87,8 @@ body {
     margin-bottom: 130px;
 }
 
-.speaker-title{
+.speaker-title , .package-title{
+    font-size: 60px;
     text-align: center;
     margin: 80px 0px;
 }
@@ -99,7 +100,7 @@ body {
     grid-template-columns: repeat(2, minmax(0,1fr));
     gap: 32px;
     width: 100%;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .speaker-card {
@@ -133,6 +134,51 @@ body {
     color: #575757;
     font-size: 12px;
 }
-
-
 /* Speaker Section */
+
+/* Package Section */
+.package-section{
+    margin-bottom: 130px;
+}
+.package-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    width: 100%;
+    max-width: 70%;
+    padding: 0 110px;
+    margin: 0 auto;
+    gap: 24px;
+}
+.package-card {
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+}
+.package-list {
+    color: #333333;
+    list-style: disc;
+}
+
+.person {
+    color: #888888;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.package-price {
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card-button {
+    padding: 12px 105px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+    color: #1D4ED8;
+    width: 100%;
+}
+/* Package Section */
