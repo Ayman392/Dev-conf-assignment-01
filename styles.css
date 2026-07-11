@@ -435,3 +435,14 @@ details[open] .toggle::after { transform: translate(-50%, -50%) rotate(0); }
 }
 
 /* FAQ section */
+
+/* Footer */
+.footer-des {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+    max-width: 100%;
+    align-items: center;
+    padding: 30px 0;
+}
