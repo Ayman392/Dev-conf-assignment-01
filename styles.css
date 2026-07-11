@@ -5,6 +5,17 @@
   font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Nav bar */
 .navbar-size {
     display: flex;
     justify-content: space-between;
@@ -33,3 +44,39 @@
     font-weight: bold;
     font-size: 16px;
 }
+/* Nav bar */
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.6) 30% , rgba(0, 0 , 0 ,0) 70%),linear-gradient(90deg,rgba(0, 0, 0, 0.6) 30%,rgba(0, 0, 0, 0) 70%), url(/assets/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 350px;
+}
+
+.hero-title{
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+}
+
+.hero-des {
+    font-size: 22px;
+    padding: 16px 250px;
+    color: white;
+}
+
+.hero-button{
+    margin-top: 250px;
+    padding: 20px 40px;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Hero Section */
