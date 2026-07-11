@@ -1,0 +1,35 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.navbar-size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 115px;
+}
+
+.navbar-options{
+    display: flex;
+}
+
+.navbar-options a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: #575757;
+    font-size: 16px;
+}
+
+.register {
+    background-color: #1D4ED8;
+    padding: 12px 42px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
