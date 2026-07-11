@@ -48,8 +48,8 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.6) 30% , rgba(0, 0 , 0 ,0) 70%),linear-gradient(90deg,rgba(0, 0, 0, 0.6) 30%,rgba(0, 0, 0, 0) 70%),
-    url("../assets/banner.jpg");
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.6) 30% , rgba(0, 0 , 0 ,0) 70%),linear-gradient(to bottom,rgba(0, 0, 0, 0.6) 30%,rgba(0, 0, 0, 0) 70%),
+    url("./assets/banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,10 +93,13 @@ body {
 }
 
 .speaker-cards {
+    margin: 0 auto;
     padding: 0 60px;
     display: grid;
     grid-template-columns: repeat(2, minmax(0,1fr));
     gap: 32px;
+    width: 100%;
+    max-width: 80%;
 }
 
 .speaker-card {
