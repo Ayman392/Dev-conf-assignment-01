@@ -78,5 +78,57 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
-
 /* Hero Section */
+
+/* Speaker Section */
+.speaker-section {
+    padding: 0 55px;
+    margin-bottom: 130px;
+}
+
+.speaker-title{
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.speaker-cards {
+    padding: 0 60px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,3fr));
+    gap: 32px;
+}
+
+.speaker-card {
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+}
+
+.speaker-img img {
+    width: 100%;
+}
+
+.speaker-card-info {
+    padding-left: 24px;
+    margin-bottom: 12px;
+}
+
+.job-title {
+    margin-bottom: 0;
+    color: #2563EB;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.speaker-name {
+    color: #0D1B2A;
+    margin: 4px 0;
+}
+
+.job-des{
+    margin: 0;
+    color: #575757;
+    font-size: 12px;
+}
+
+
+/* Speaker Section */
